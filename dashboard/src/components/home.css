@@ -1,0 +1,56 @@
+.search-header{
+    padding: 10px;
+    position: relative;
+
+}
+.search-header input{
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(182, 180, 180);
+}
+.cardimg{
+    text-align: center;
+    padding: 10px;
+}
+.card-img{
+    width: 150px;
+    height: 150px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,320px); 
+}
+.grid-card{
+    background-color: rgb(17, 17, 17);
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+.grid-card:hover{
+    transform: scale(.9);
+}
+.card-content{
+    text-align: left;
+}
+.banner{
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)) center no-repeat;
+}
+@media screen and (max-width: 1250px){
+    .grid-container{
+        grid-template-columns: repeat(3,320px); 
+    }
+}
+@media screen and (max-width: 950px){
+    .grid-container{
+        grid-template-columns: repeat(2,320px); 
+    }
+}
+@media screen and (max-width: 625px){
+    .grid-container{
+        grid-template-columns: repeat(1,320px); 
+    }
+}

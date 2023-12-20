@@ -1,0 +1,62 @@
+.Home-head span{
+    color: red;
+    text-align: center;
+  }
+
+.Rcontainer{
+    width: 40%;
+    margin: 15vh auto;
+    animation-name: slidein-left;
+    animation-duration: 3s;
+}
+@keyframes slidein-left{
+    from{
+        margin-left: 100%;
+        width: 0%;
+    }
+    to{
+        margin-left: 30%;
+        width: 40%;
+    }
+}
+.login {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.login input{
+    border-radius: 8px;
+    border: 2px solid #1c1c1c;
+    outline: none;
+    color: #1d2129;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    width: 92%;
+    font-size: 1rem;
+}
+
+.login .button{
+    background: #6900ff;
+    border: 1px solid #6900ff;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+.sign{
+    color: rgba(0, 0, 0, 0.514);
+    text-decoration: underline;
+    cursor: pointer;
+}
+h3 {
+    color: #6900ff;
+  }
